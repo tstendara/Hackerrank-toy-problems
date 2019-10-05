@@ -18,10 +18,9 @@ const leaderBoard = (allScores, player) => {
         
             if(curNumber !== curHighestScore){
                 rank ++
-                curScore = curNumber
                 curHighestScore = allScores[i]
             }
-            
+
            if(player[j] > curNumber || player[j] === curNumber){ //handles when players score is greater than another score or if the score is the same in the leaderboard
                 ranks.push(rank)
                 break;
