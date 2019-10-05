@@ -33,3 +33,10 @@ const swaps = (arr) => {
 }
 const res = swaps([4, 3, 1, 2])
 console.log(res)
+
+
+
+
+
+
+
