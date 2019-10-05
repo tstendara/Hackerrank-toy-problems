@@ -34,3 +34,5 @@ const leaderBoard = (allScores, player) => {
 }   
 const res = leaderBoard([100, 100, 50, 40, 40, 20, 10], [5, 25, 50, 120])
 console.log(res)
+
+//solves 6/12 cases currently
