@@ -34,7 +34,7 @@ const leaderBoard = (allScores, player) => {
     }
     return ranks
 }   
-const res = leaderBoard([100, 100, 50, 40, 40, 20, 10], [120, 5, 25, 50, 5])
+const res = leaderBoard([100, 100, 50, 40, 40, 20, 10], [5, 25, 50, 125])
 console.log(res)
 
 
