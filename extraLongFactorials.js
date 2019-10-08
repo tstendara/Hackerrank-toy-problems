@@ -10,5 +10,5 @@ const extraLongFactorial = (n) => {
   }  
   return n 
 }
-const res = extraLongFactorial(25)
+const res = extraLongFactorial(10)
 console.log(res)
