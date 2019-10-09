@@ -11,14 +11,10 @@ const coinChange = (arr, total) => {
 
     for(let i=arr.length-1; i>=0; i--){
         x = Math.trunc(total / arr[i]);
-
         coins += x
         total -= x * arr[i]
-
-        if(coins === 0 && i === 0 && arr[i] > total){
-            return 0
-        }
     }
+
     if(total !== 0) { 
         return -1 
     }
@@ -26,5 +22,5 @@ const coinChange = (arr, total) => {
     return coins 
 
 }
-const res = coinChange([2], 1)
+const res = coinChange([1, 2, 3, 5], 11)
 console.log(res)
