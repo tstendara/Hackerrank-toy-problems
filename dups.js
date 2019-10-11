@@ -18,10 +18,14 @@ const dups = (nums) => {
                 count = 0
             }
        }
-    }
+    } 
     return nums // or return nums.length
 }
 const res = dups([0,0,1,1,1,2,2,3,3,4])
 console.log(res)
+
+
+
+
 
 
